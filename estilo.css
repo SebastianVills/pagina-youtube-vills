@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font: 16px;
+  background-color: #fff;
+}
+.contenedor {
+  width: 90%;
+  max-width: 5000px;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://www.nawpic.com/media/2020/goku-4k-nawpic-10-scaled.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+.menu a {
+  display: inline-block;
+  padding: 15px 13px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.menu a:hover {
+  text-decoration: overline;
+}
+.segundoreal-contenedor {
+  background-color: #f5f5dc;
+  padding: 40px 0;
+  text-align: center;
+}
+.segundo-titulo {
+  font-size: 40px;
+  padding: 20px 0px 0 0;
+  color: #000;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.segundo-parrafo {
+  font-size: 25px;
+  padding: 10px 0px;
+  color: #000;
+  letter-spacing: 2px;
+}
+.tercer-contenedor {
+  background-color: #458ba2;
+  padding: 40px 0;
+  text-align: center;
+}
+.tercer-titulo {
+  font-size: 35px;
+  padding: 15px 10px;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.tercer-parrafo {
+  font-size: 25px;
+  padding: 15px 10px;
+  color: #000;
+  letter-spacing: 2px;
+}
+.tercer-contenedor img {
+  margin: auto;
+}
+
+.botom-tres {
+  background-color: #454b4d;
+  padding: 15px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+}
+.botom-tres:hover {
+  background-color: #000;
+}
+.iconos {
+  padding: 30px 0;
+  background-color: #f5f5dc;
+}
+.cuarto-contenedor {
+  display: block;
+  justify-content: space-between;
+  text-align: center;
+}
+.cuarto-subcontenedor {
+  padding: 30px 10px;
+}
+.cuarto-titulo {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.cuarto-parrafo {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.iconos-contenedor {
+  display: flex;
+}
+
+.icono-img {
+  width: 40%;
+  height: 40%;
+}
+.cuarto-subtitulo {
+  margin: 5px 0;
+}
+.cuarto-subparrafo {
+  margin: 3px 0;
+}
+
+.final-icono-personal {
+  display: block;
+  justify-content: space-between;
+  text-align: center;
+}
+.final-titulo {
+  display: block;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contenido-final {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.img-final {
+  width: 50%;
+  height: 50%;
+}
+footer {
+  background-color: #447a8c;
+}
+.titulo-no-copia {
+  background-color: #345864;
+  text-align: center;
+}
